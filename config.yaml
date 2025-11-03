@@ -1,0 +1,40 @@
+# AgentCore Configuration File
+# This file configures how your agent will be deployed to Bedrock AgentCore
+
+# Agent metadata
+agent:
+  name: todo-list-agent
+  description: A simple to-do list management agent using Strands framework
+  version: "1.0.0"
+
+# Runtime configuration
+runtime:
+  # Python runtime version
+  python_version: "3.11"
+  
+  # Environment variables (loaded from .env)
+  env_vars:
+    - AWS_REGION
+    - AWS_PROFILE
+    - BEDROCK_MODEL_ID
+
+# Deployment settings
+deployment:
+  # AWS region for deployment
+  region: us-east-1
+  
+  # Resource naming
+  resource_prefix: todo-agent
+
+# Model configuration
+model:
+  # Default Bedrock model to use
+  # You can override this in your code
+  default_model: "anthropic.claude-3-sonnet-20240229"
+  
+  # Temperature (creativity) - 0.0 to 1.0
+  temperature: 0.7
+  
+  # Max tokens in response
+  max_tokens: 1000
+
