@@ -30,7 +30,11 @@ deployment:
 model:
   # Default Bedrock model to use
   # You can override this in your code
-  default_model: "anthropic.claude-3-sonnet-20240229"
+  # Common model IDs:
+  # - anthropic.claude-3-5-sonnet-20240620-v1:0 (latest Claude 3.5 Sonnet - most capable but slower)
+  # - anthropic.claude-3-sonnet-20240229-v1:0 (Claude 3 Sonnet - balanced)
+  # - anthropic.claude-3-haiku-20240307-v1:0 (Claude 3 Haiku - fastest and cheapest, good for simple tasks)
+  default_model: "anthropic.claude-3-haiku-20240307-v1:0"
   
   # Temperature (creativity) - 0.0 to 1.0
   temperature: 0.7
