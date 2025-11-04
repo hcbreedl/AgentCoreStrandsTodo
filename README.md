@@ -50,7 +50,7 @@ This project creates a simple to-do list agent that can:
 ### Project Structure
 
 ```
-aws-experiment/
+AgentCoreStrandsToDo/
 ├── README.md              # This comprehensive guide
 ├── requirements.txt       # Python dependencies
 ├── todo_agent.py          # Main agent implementation
@@ -77,7 +77,7 @@ test -d .venv && echo "Virtual environment exists" || echo "Create with: python3
 
 ```bash
 # Navigate to project directory
-cd /Users/hbreedlove/Development/aws-experiment
+cd /Users/hbreedlove/Development/AgentCoreStrandsToDo
 
 # Activate virtual environment
 source .venv/bin/activate  # On macOS/Linux
