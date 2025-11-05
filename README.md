@@ -103,7 +103,7 @@ python3 -c "import os; from dotenv import load_dotenv; load_dotenv(); print('AWS
 ### Step 4: Run the Agent
 
 ```bash
-python todo_agent.py
+python3 todo_agent.py
 ```
 
 Try these commands:
@@ -454,7 +454,7 @@ python todo_agent.py
 The agent runs in interactive mode. Simply run:
 
 ```bash
-python todo_agent.py
+python3 todo_agent.py
 ```
 
 Then try commands like:

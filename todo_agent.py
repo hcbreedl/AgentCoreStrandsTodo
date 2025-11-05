@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Simple To-Do List Agent using Strands Framework and Bedrock AgentCore
 
